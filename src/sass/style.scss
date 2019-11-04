@@ -1,0 +1,17 @@
+@import "variables";
+@import "mixins";
+
+@import "normalize";
+@import "layout";
+
+@import 'words';
+
+/*components*/
+@import "components/buttons";
+@import "components/list";
+
+
+/*sections*/
+
+@import "sections/navbar";
+@import "sections/aside"

@@ -1,0 +1,21 @@
+.btn {
+  display: block;
+  width: auto;
+  height: 40px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  padding: 0 15px;
+  margin: 20px auto;
+  background-color: $brand-main-color;
+  font-family: $brand-font;
+  color: $brand-light-color;
+
+  &:hover {
+    cursor: pointer;
+    background-color: $brand-main-color-darker;
+  }
+}
+
+.btn-disabled {
+  background-color: $paragraph-color;
+}
