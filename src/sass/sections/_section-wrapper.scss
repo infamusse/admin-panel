@@ -1,0 +1,21 @@
+.section {
+  position: absolute;
+  left: calc(50% + 100px);
+  transform: translateX(-50%);
+  top: 100px;
+
+  width: 1200px;
+  scroll-behavior: smooth;
+  z-index: -2;
+}
+
+.section--full-screen {
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1600px;
+}
+
+.section,
+.section--full-screen {
+  transition: 0.4s;
+}

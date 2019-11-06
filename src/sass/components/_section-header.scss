@@ -1,0 +1,11 @@
+.section__header {
+  background-color: #fff;
+  border-bottom: 0.5px solid $hover-background-color;
+  padding: 2px;
+
+  .section__header-text {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: $dark-background-color;
+  }
+}

@@ -1,17 +1,22 @@
-@import "variables";
-@import "mixins";
+@import 'variables';
+@import 'mixins';
 
-@import "normalize";
-@import "layout";
+@import 'normalize';
+@import 'layout';
 
 @import 'words';
 
 /*components*/
-@import "components/buttons";
-@import "components/list";
-
+@import 'components/buttons';
+@import 'components/list';
+@import 'components/section-header';
 
 /*sections*/
+@import 'sections/section-wrapper';
+@import 'sections/section-article';
+@import 'sections/navbar';
+@import 'sections/aside';
 
-@import "sections/navbar";
-@import "sections/aside"
+body {
+  scroll-behavior: smooth;
+}
