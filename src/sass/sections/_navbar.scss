@@ -36,7 +36,8 @@
     }
   }
 
-  .navbar__element:hover {
+  .navbar__element:hover,
+  .navbar__element--active {
     background-color: $hover-background-color;
   }
 }

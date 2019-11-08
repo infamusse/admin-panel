@@ -1,0 +1,45 @@
+.main__stats {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.main__chart {
+  display: flex;
+  justify-content: center;
+
+  img {
+    height: 400px;
+  }
+}
+
+table {
+  margin-top: 20px;
+  font-size: 14px;
+
+  tr {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+
+    td {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 200px;
+      margin: 0 30px;
+      padding: 0 25px;
+      border-bottom: 0.5px solid $hover-background-color;
+    }
+  }
+}
+
+td {
+  h3 {
+    color: $hover-background-color;
+  }
+
+  p {
+    color: $dark-background-color;
+  }
+}

@@ -1,0 +1,22 @@
+.date-picker {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding-bottom: 50px;
+  border-bottom: 0.5px solid $hover-background-color;
+
+  > * {
+    margin: 0 3px;
+  }
+
+  input {
+    height: 30px;
+  }
+
+  img {
+    margin: 0;
+    height: 25px;
+    transform: translateX(-40px);
+  }
+}

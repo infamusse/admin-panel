@@ -19,3 +19,9 @@
 .btn-disabled {
   background-color: $paragraph-color;
 }
+
+.btn--inline {
+  display: inline-block;
+  margin: 0;
+  height: 35px;
+}

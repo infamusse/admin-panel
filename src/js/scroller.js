@@ -10,7 +10,7 @@ const scrollTo = link => {
       article.scrollIntoView({
         behavior: 'smooth',
         block: 'start',
-        inline: 'end',
+        inline: 'start',
       });
       console.log(linkAttribute, articleAttribute);
     }
