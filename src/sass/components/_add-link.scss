@@ -1,0 +1,33 @@
+.addLink {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 250px;
+
+  visibility: visible;
+  transition: 0.6s;
+
+  .field {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 36%;
+
+    input,
+    textarea {
+      width: 150px;
+      height: 25px;
+    }
+  }
+
+  .btn {
+    flex-basis: 30%;
+  }
+}
+
+.addLink--hide {
+  height: 10px;
+  visibility: hidden;
+  transition: 0.6s;
+}

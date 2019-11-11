@@ -1,9 +1,6 @@
 @import 'variables';
 @import 'mixins';
-
 @import 'normalize';
-@import 'layout';
-
 @import 'words';
 
 /*components*/
@@ -12,14 +9,15 @@
 @import 'components/section_list';
 @import 'components/section-header';
 @import 'components/date-picker';
+@import 'components/add-link';
 
 /*sections*/
-@import 'sections/section-wrapper';
 @import 'sections/section-article';
 @import 'sections/navbar';
 @import 'sections/aside';
 @import 'sections/general';
+@import 'sections/details';
 
-body {
-  scroll-behavior: smooth;
-}
+/*genrals*/
+@import 'layout';
+@import 'media';

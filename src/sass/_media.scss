@@ -1,0 +1,79 @@
+@media (max-width: 500px) {
+  /*Date picker*/
+  .date-picker {
+    flex-direction: column;
+    img {
+      margin: 0;
+      height: 25px;
+      transform: translate(80px, -33px);
+    }
+  }
+
+  /*Section List*/
+  .section__list {
+    .section__list-element {
+      justify-content: space-between;
+      p,
+      a {
+        font-size: 12px;
+      }
+      img {
+        display: none;
+      }
+    }
+  }
+
+  /*Aside*/
+  .sidebar {
+    width: 50vw;
+    height: 100vh;
+    left: -100%;
+  }
+  .intro {
+    .intro__title {
+      color: $brand-light-color;
+      font-family: $paragraph-font;
+      font-size: 20px;
+    }
+
+    .fa-bars {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      color: $brand-main-color;
+    }
+
+    .fa-bars:hover {
+      color: $brand-main-color;
+    }
+
+    .anchor {
+    }
+
+    .anchor:hover {
+      color: $brand-main-color;
+    }
+  }
+  .sidebar--hide {
+    left: 0;
+  }
+
+  /*Table general*/
+  table {
+    tr {
+      display: flex;
+      justify-content: space-between;
+      align-content: center;
+
+      td {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 80%;
+        margin: 0 10px;
+        padding: 0 15px;
+        border-bottom: 0.5px solid $hover-background-color;
+      }
+    }
+  }
+}

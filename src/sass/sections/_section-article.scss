@@ -1,8 +1,11 @@
 .section__article {
+  width: 1000px;
+  align-self: center;
+  place-self: center;
+
   background-color: #fff;
   box-shadow: 0 0 4px $hover-background-color;
-  margin-bottom: 50px;
-  z-index: -99;
+  margin-bottom: 40px;
   padding: 10px;
 
   .section__main {
