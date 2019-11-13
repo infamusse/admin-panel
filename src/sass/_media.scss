@@ -13,10 +13,12 @@
   .section__list {
     .section__list-element {
       justify-content: space-between;
+
       p,
       a {
         font-size: 12px;
       }
+
       img {
         display: none;
       }
@@ -46,10 +48,6 @@
     .fa-bars:hover {
       color: $brand-main-color;
     }
-
-    .anchor {
-    }
-
     .anchor:hover {
       color: $brand-main-color;
     }

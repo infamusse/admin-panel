@@ -1,0 +1,12 @@
+{
+  "links": [
+    {
+      "id": "http://Kodilla.com",
+      "href": "http://Kodilla.coms"
+    },
+    {
+      "id": "http://twitter.com",
+      "href": "http://twitter.coms"
+    }
+  ]
+}

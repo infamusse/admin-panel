@@ -50,6 +50,7 @@ body {
     'navbar navbar navbarr'
     '. section-wrapper  .'
     '. section-wrapper  .';
+
   .navbar {
     left: 0;
     width: 100%;
@@ -69,6 +70,7 @@ body {
 
     .section-wrapper {
       width: 80vw;
+
       .section__article {
         width: 75vw;
       }
@@ -84,6 +86,7 @@ body {
     grid-template-areas:
       'aside section-wrapper .'
       'aside section-wrapper .';
+
     .navbar {
       left: 0;
       width: 100%;
