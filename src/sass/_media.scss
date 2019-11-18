@@ -33,8 +33,6 @@
   }
   .intro {
     .intro__title {
-      color: $brand-light-color;
-      font-family: $paragraph-font;
       font-size: 20px;
     }
 
@@ -52,8 +50,33 @@
       color: $brand-main-color;
     }
   }
+
+  .sidebar__manager {
+    h3 {
+      font-size: 16px;
+    }
+    .manager__details {
+      .manager_desc {
+        color: $brand-light-color;
+        margin-left: 10px;
+        font-size: 14px;
+      }
+    }
+  }
   .sidebar--hide {
     left: 0;
+  }
+
+  .sidebar__list {
+    .sidebar__element {
+      height: 25px;
+      > * {
+        font-size: 14px;
+      }
+    }
+  }
+  .sidebar-navbar {
+    display: flex;
   }
 
   /*Table general*/
@@ -72,6 +95,19 @@
         padding: 0 15px;
         border-bottom: 0.5px solid $hover-background-color;
       }
+    }
+  }
+
+  /*Pages*/
+  .main__chart {
+    position: relative;
+    height: 200px;
+    overflow-x: scroll;
+    .main__chart--container {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 400px;
     }
   }
 }

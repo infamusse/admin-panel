@@ -105,6 +105,21 @@
             </a>
           </div>
         </div>
+        <div class="sidebar-navbar">
+          <div class="navbar__element">
+            <img src="images/icons/wallet.svg" alt="" />
+          </div>
+          <div class="navbar__element">
+            <img src="images/icons/notification.svg" alt="" />
+          </div>
+          <div class="navbar__element">
+            <img src="images/icons/profile.svg" alt="" />
+            <p class="navbar__profile">Leonardo Di Caprio</p>
+          </div>
+          <div class="navbar__element">
+            <img src="images/icons/quit.svg" alt="" />
+          </div>
+        </div>
       </aside>
 
       <div class="section-wrapper">
@@ -153,15 +168,13 @@
                 </table>
               </div>
               <div class="main__chart">
-                <img
-                  src="http://giphygifs.s3.amazonaws.com/media/6J9fWTcnBpkY0/giphy.gif"
-                  alt=""
-                />
+                <div class="main__chart--container">
+                  <canvas id="myChart"></canvas>
+                </div>
               </div>
             </div>
           </div>
         </article>
-
         <article data-attribute="details" class="section__article details">
           <div class="section__header">
             <h2 class="section__header-text">
@@ -292,7 +305,9 @@
         </article>
       </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
     <script src="js/sidebar-hide.js"></script>
+    <script src="js/chart.js"></script>
     <script src="js/scroller.js"></script>
     <script src="js/addLink.js"></script>
   </body>

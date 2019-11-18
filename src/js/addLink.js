@@ -26,7 +26,7 @@ const displayLinks = links => {
       `<p>${linkTitle}</p>` +
       `<a href='http://${link}'>${link}</a>` +
       '<img src="./images/icons/links.svg" alt="" />' +
-      '<img src="./images/icons/trash.svg" alt="" /';
+      '<img src="./images/icons/trash.svg" alt="" />';
     list.appendChild(newLink);
     form.classList.add('addLink--hide');
   });

@@ -18,6 +18,11 @@
 @import 'sections/general';
 @import 'sections/details';
 
+/*pages*/
+@import 'pages/article-general';
+@import 'pages/article-detail';
+
 /*genrals*/
 @import 'layout';
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
 @import 'media';
