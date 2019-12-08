@@ -11,7 +11,7 @@
     "init:gitignore:custom": "echo \"dist\" >> .gitignore",
     "test": "npm-run-all test:*",
     "test:js": "eslint src/js/",
-    "build": "npm-run-all build:* test",
+    "build": "npm-run-all build:* ",
     "build:clean": "mkdirp dist && rm -r dist && mkdirp dist",
     "build:copy": "copyfiles -a -u 1 -e \"**/sass/**/*\" -e \"**/.gitkeep\" \"src/**/*\" dist",
     "build:sass": "node-sass --output-style compact -o dist/css src/sass",
@@ -29,6 +29,7 @@
   "license": "ISC",
   "dependencies": {
     "flatpickr": "^4.6.3",
+    "js-datepicker": "^5.2.1",
     "json-server": "^0.14.2",
     "normalize.css": "^8.0.1"
   },

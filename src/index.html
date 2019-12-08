@@ -10,6 +10,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css"
     />
+    <link rel="stylesheet" href="https://unpkg.com/js-datepicker/dist/datepicker.min.css"> 
     <script
       src="https://kit.fontawesome.com/b0c3f215bc.js"
       crossorigin="anonymous"
@@ -132,8 +133,16 @@
           <div class="section__main">
             <div class="main__inputs">
               <div class="date-picker">
-                <input type="text" name="start-date" />
-                <input type="text" name="end-date" />
+                <input
+                  type="text"
+                  class="date-picker--start"
+                  placeholder="End date"
+                  name="start-date"
+                />
+                <input type="text" 
+                class="date-picker--end"
+                placeholder="End date" 
+                name="end-date" />
                 <img
                   src="images/icons/calendar.svg"
                   class="icon"
@@ -306,9 +315,11 @@
       </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+    <script src="https://unpkg.com/js-datepicker"></script> 
     <script src="js/sidebar-hide.js"></script>
     <script src="js/chart.js"></script>
     <script src="js/scroller.js"></script>
     <script src="js/addLink.js"></script>
+    <script src="js/datePicker.js"></script>
   </body>
 </html>
